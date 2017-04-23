@@ -1,0 +1,195 @@
+/*
+FONTS
+
+font-family: 'Orbitron', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Rock Salt', cursive;
+
+
+*/
+
+
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    background-color: #2f2f2f !important;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-brand {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.navbar-transparent .navbar-brand {
+  color: #4a4a4a;
+}
+
+.navbar-transparent .navbar-nav > .active > a, .navbar-transparent .navbar-nav > .active > a:hover, .navbar-transparent .navbar-nav > .active > a:focus {
+	color: #4a4a4a;
+	background-color: transparent;
+	border-bottom: 2px solid #4a4a4a;
+}
+
+.navbar-transparent .navbar-nav > li > a {
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 7px;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+a:focus {
+  background-color: transparent;
+  outline: none;
+}
+
+/* HEADER!! */
+
+.col-lg-6.col-lg-offset-3 {
+  font-family: 'Orbitron', sans-serif;
+  margin-left: -17%;
+  width: 55%;
+}
+
+.col-lg-6.col-lg-offset-3.about {
+  font-family: sans-serif;
+  margin-left: -17.8%;
+  padding-bottom: 10px;
+  width: 55%;
+  bottom: 150px;
+}
+
+#headerwrap {
+  background-image: url(../img/jronemusic.jpg);
+  margin-top: 0px;
+  padding-top: 285px;
+  text-align: left;
+  background-attachment: relative;
+  background-position: 10% 73%;
+  min-height: 800px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  color: black;
+}
+
+#headerwrap h4 {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#work h1 {
+  display: block;
+}
+
+/* My Portfolio Section*/
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 25px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  color: black;
+}
+
+#social {
+  position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a;
+}
+
+#social i:hover {
+	color: black;
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+  font-size: 18px;
+}
+
+
+#aboutwrap {
+  background-image: url(../img/x2.jpg);
+  margin-top: -70px;
+  padding-top: 450px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: 10% 15%;
+  min-height: 1050px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
+
+/*h1.mywork {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Rock Salt', cursive;
+}*/
